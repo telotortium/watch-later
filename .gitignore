@@ -48,3 +48,5 @@ node_modules/
 # Project Based
 data/*
 *.txt
+
+manifest.json   # Don't allow access to OAuth Client ID

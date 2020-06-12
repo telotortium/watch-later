@@ -20,7 +20,7 @@
     ]
   },
   "oauth2": {
-    "client_id": "587645511433-6o0c8vr7qk8qoneb9b925t5skr8np5q2.apps.googleusercontent.com",
+    "client_id": "[REDACTED - generate your own at https://console.developers.google.com/apis/credentials]",
     "scopes": [
       "https://www.googleapis.com/auth/youtube"
     ]

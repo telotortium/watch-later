@@ -5,7 +5,6 @@
   "short_name": "Watch Later",
   "description": "Right-click link to add to Youtube 'Watch Later' playlist",
   "version": "1.0.6",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnaIV2aq5etQHwJwVPHuczBs09fC6gMxIUXe0/h87s8OmofaOv7eDwWz+31iA4yPHhQ1YXWJXqLmUaz+6l4Ju1ANkY9IBRMZcHUwlLPxxQSnzPD2zuUygmxAJ3Lx0Gl1tUfL8kzjwfyzi/8KSeG5qGn02D1zPXYsKl8ek1CQjP7wDpxba30ruoZto6zlmoudcEXiFay1lpfXQRqxgia3aIrpXc6PD03RP369ZGP//3JWs4pFClNic05YPBoCvBCcNM9pobSRj2QdbysrWe/HQIpjRDHPfeQ4p+RykVu6eM+s4AI/yVRdarSvBpqYDzQbG8zBJG7kfjkGfbafjbNQkKQIDAQAB",
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://apis.google.com/; object-src 'self'",
   "permissions": [
     "identity",
@@ -14,15 +13,16 @@
     "tabs",
     "history"
   ],
-  "oauth2": {
-    "client_id": "1028861602215-sjolsjc5k7kmo3h3q69c9iks9bb56ata.apps.googleusercontent.com",
-    "scopes": [
-      "https://www.googleapis.com/auth/youtube"
-    ]
-  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr7vtYGcfRDyxO5+o/kyI910zsM2QaXkWegwYfIMBGACtToYf0NppPJbAM3QbI1/xNynpHqtjVaBaQJ+sAwKHCm5ONg8vsxg4BCmjo9omWPSa96pAsbyir7/4AXUR/Tho1KLwKLazkR6lydMPdu8ePqSEqyPt1upxFHEN3F7UXSwzhpuJkxEsIaX9hYC2TMtrcoKTB9CHWckjR0z1KMiZZdxucmy7DJvFRV4xyZkDCqpmXsE+t7CtF7kU/GDwQOJmixiUawn9iENqZHxQwDhUukpyyqy6yeB0c/wszXZqmZgWezNcY93QjwuxBAH7qubmfNNjkWq1IbRIgbVN4N8ufQIDAQAB",
   "background": {
     "scripts": [
       "background.js"
+    ]
+  },
+  "oauth2": {
+    "client_id": "587645511433-6o0c8vr7qk8qoneb9b925t5skr8np5q2.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/youtube"
     ]
   },
   "browser_action": {
